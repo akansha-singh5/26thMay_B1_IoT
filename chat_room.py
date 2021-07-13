@@ -25,7 +25,7 @@ def on_disconnect(client,userdata,rc):
     if(rc!=0):
         print("unexpected disconnection")
 
-broker_addr="test.mosquitto.org"
+broker_addr="broker.hivemq.com"
 port=1883
 
 client=mqtt.Client()
